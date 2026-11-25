@@ -8,10 +8,11 @@ chart analitik, atau keluaran build aplikasi.
 
 | Item | Keadaan |
 |---|---|
-| Git repository | Di-bootstrap pada tugas ini (`git init`), branch `main`, tanpa commit sebelum commit pertama di bawah. |
+| Git repository | Ada. Di-bootstrap dengan `git init -b main`; branch `main` melacak `origin/main`. |
+| Remote | `https://github.com/Reltroner/reltroner-statistics-resource.git` |
 | Aset gambar | NOT AVAILABLE — belum ada berkas gambar. |
 | Fasilitas generasi | NOT AVAILABLE — tidak ada kredensial penyedia gambar dan tidak ada runtime generasi lokal. |
-| CDN pin | NOT AVAILABLE — belum ada aset untuk dipin. |
+| CDN pin | NOT AVAILABLE — belum ada aset untuk dipin. Mekanisme jsDelivr `gh/<owner>/<repo>@<full-sha>` sudah diverifikasi byte-identik untuk berkas teks di repositori ini. |
 
 Karena belum ada aset, `images/`, `masters/`, dan `manifest.json` sengaja belum dibuat.
 Membuat katalog tanpa berkas terukur akan menjadi data rekaan.
