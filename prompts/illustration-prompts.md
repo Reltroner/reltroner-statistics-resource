@@ -7,15 +7,16 @@ agar cocok dengan model gambar; judul, catatan, dan batasan ditulis dalam bahasa
 
 | Field | Nilai |
 |---|---|
-| Model | NOT AVAILABLE |
-| Seed | NOT AVAILABLE |
+| Fasilitas generasi | Subagent `image-generator` bawaan runtime lokal (tanpa dependency atau layanan eksternal baru) |
+| Model internal | NOT AVAILABLE (tidak diekspos oleh runtime) |
+| Seed | NOT AVAILABLE (tidak diekspos oleh runtime) |
 | Durasi | NOT AVAILABLE |
 | Token / usage | NOT AVAILABLE |
-| Tanggal generasi | NOT AVAILABLE |
-| Berkas keluaran | NOT AVAILABLE |
+| Tanggal generasi | `2026-11-25` |
+| Berkas keluaran | `9` slot `READY` (`masters/*.jpg` + `images/*.webp` terukur di `manifest.json`); `9` slot `PROMPT_ONLY` karena kuota model gambar habis (`HTTP 429 RESOURCE_EXHAUSTED`, tanpa dummy) |
+| Optimasi delivery | Pillow `13.0.0`, `ImageOps.fit` (`LANCZOS`, downscale saja ke rasio slot eksak), `WEBP quality=86 method=6` |
 
-Tidak ada metadata generasi yang dicatat karena tidak ada generasi yang dijalankan pada
-tugas ini. Nilai di atas tidak boleh diisi dengan perkiraan.
+Metadata yang tidak diekspos oleh runtime dicatat persis `NOT AVAILABLE` dan tidak diperkirakan.
 
 ## Art direction bersama
 

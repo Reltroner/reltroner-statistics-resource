@@ -1,0 +1,344 @@
+{
+  "schema_version": "reltroner-statistics-resource-catalog.v1",
+  "catalog_scope": "resource-repository-catalog-only",
+  "note": "Katalog resource (bukan kontrak runtime aplikasi). Hanya memakai path relatif tanpa self-referential commit SHA; pin commit 40 karakter disimpan di aplikasi setelah publikasi.",
+  "naming_rule": "lowercase(slot_id), replace _ with -, keep [a-z0-9-], .webp for delivery images and .jpg for masters",
+  "optimization": {
+    "tool": "Pillow 13.0.0",
+    "resampling": "LANCZOS",
+    "fit": "center-fit exact slot aspect ratio (downscale only)",
+    "delivery_format": "WEBP quality=86 method=6"
+  },
+  "summary": {
+    "total_slots": 18,
+    "ready_slots": 9,
+    "prompt_only_slots": 9,
+    "unique_slugs": 18
+  },
+  "slots": [
+    {
+      "slot_id": "STATS_HOME_HERO",
+      "slug": "stats-home-hero",
+      "aspect": "16 / 9",
+      "motif": "orbital",
+      "status": "READY",
+      "image": {
+        "path": "images/stats-home-hero.webp",
+        "format": "webp",
+        "mime": "image/webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 33308,
+        "sha256": "d55e9e5cf5158a07f972cb0d0c49ffdf9b7c7e93c5b8ccedd424e2945549a4cd"
+      },
+      "master": {
+        "path": "masters/stats-home-hero.jpg",
+        "format": "jpeg",
+        "mime": "image/jpeg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 498569,
+        "sha256": "0b23d8d463f04f71583076a5062bebc7e38828fa81c004daf058cafce885711a"
+      }
+    },
+    {
+      "slot_id": "STATS_WORLD_OVERVIEW",
+      "slug": "stats-world-overview",
+      "aspect": "3 / 2",
+      "motif": "contour",
+      "status": "READY",
+      "image": {
+        "path": "images/stats-world-overview.webp",
+        "format": "webp",
+        "mime": "image/webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 34924,
+        "sha256": "c02a3c9c26661247b58f75a5816910f5cd929db143db50c37acd8e804a38c1fb"
+      },
+      "master": {
+        "path": "masters/stats-world-overview.jpg",
+        "format": "jpeg",
+        "mime": "image/jpeg",
+        "width": 1264,
+        "height": 848,
+        "bytes": 427330,
+        "sha256": "0967563934f78a3596880a8406db0b327ae6504c7e6b9b8643233afcdffc582e"
+      }
+    },
+    {
+      "slot_id": "STATS_COUNTRY_COMPARISON",
+      "slug": "stats-country-comparison",
+      "aspect": "3 / 2",
+      "motif": "lattice",
+      "status": "READY",
+      "image": {
+        "path": "images/stats-country-comparison.webp",
+        "format": "webp",
+        "mime": "image/webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 34120,
+        "sha256": "b795eb12d57681bf120bf4a2bd55d4800dda253b10e99b4099e5571778175a68"
+      },
+      "master": {
+        "path": "masters/stats-country-comparison.jpg",
+        "format": "jpeg",
+        "mime": "image/jpeg",
+        "width": 1264,
+        "height": 848,
+        "bytes": 461495,
+        "sha256": "9755b1f9994f6f485642cd5b0f1c623bf15f0c8edbadd8b2d606c15dce7c1032"
+      }
+    },
+    {
+      "slot_id": "STATS_HISTORICAL_DYNAMICS",
+      "slug": "stats-historical-dynamics",
+      "aspect": "16 / 9",
+      "motif": "chronology",
+      "status": "READY",
+      "image": {
+        "path": "images/stats-historical-dynamics.webp",
+        "format": "webp",
+        "mime": "image/webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 17354,
+        "sha256": "67cb670456809d1602e745880c20f313d90f6c017a64238f39df2f5fca48e437"
+      },
+      "master": {
+        "path": "masters/stats-historical-dynamics.jpg",
+        "format": "jpeg",
+        "mime": "image/jpeg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 362471,
+        "sha256": "1351b1397c88e8986ec0a77beb2e36ed15df703283d6a6d9e65b9ea0ada389f1"
+      }
+    },
+    {
+      "slot_id": "STATS_CLUSTERING_LAB",
+      "slug": "stats-clustering-lab",
+      "aspect": "3 / 2",
+      "motif": "clusters",
+      "status": "READY",
+      "image": {
+        "path": "images/stats-clustering-lab.webp",
+        "format": "webp",
+        "mime": "image/webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 57282,
+        "sha256": "5007a050913663f50b64a446c9f3168a16adb9d457023c43eabc44e9459a81ed"
+      },
+      "master": {
+        "path": "masters/stats-clustering-lab.jpg",
+        "format": "jpeg",
+        "mime": "image/jpeg",
+        "width": 1264,
+        "height": 848,
+        "bytes": 543294,
+        "sha256": "a4aeb06d26b923e9ec51aabe59809bacf6b3d48b4df2a231cf89446e7387dbbf"
+      }
+    },
+    {
+      "slot_id": "STATS_DEPENDENCY_GRAPH",
+      "slug": "stats-dependency-graph",
+      "aspect": "3 / 2",
+      "motif": "network",
+      "status": "READY",
+      "image": {
+        "path": "images/stats-dependency-graph.webp",
+        "format": "webp",
+        "mime": "image/webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 30916,
+        "sha256": "31e64766f6d87b16cbce9ca7054e0fd8fbff9216b4df537cc034f55bee9b01e2"
+      },
+      "master": {
+        "path": "masters/stats-dependency-graph.jpg",
+        "format": "jpeg",
+        "mime": "image/jpeg",
+        "width": 1264,
+        "height": 848,
+        "bytes": 438455,
+        "sha256": "53ecc752f141cfbdb5082fbedb9d22f074e7c21aeadf21ea39a5d2548297a057"
+      }
+    },
+    {
+      "slot_id": "STATS_SOURCE_DRIFT",
+      "slug": "stats-source-drift",
+      "aspect": "3 / 2",
+      "motif": "twin-orbits",
+      "status": "READY",
+      "image": {
+        "path": "images/stats-source-drift.webp",
+        "format": "webp",
+        "mime": "image/webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 32150,
+        "sha256": "8f4fd5613b9b41d4ea56a2d6e8d4c46234b3ef3d654afbe937e02691a5d6ccbc"
+      },
+      "master": {
+        "path": "masters/stats-source-drift.jpg",
+        "format": "jpeg",
+        "mime": "image/jpeg",
+        "width": 1264,
+        "height": 848,
+        "bytes": 430198,
+        "sha256": "8a6d54887e3e25daaf8d286359ba4f3789f4d0bcbc0728cfdee56665a582d422"
+      }
+    },
+    {
+      "slot_id": "STATS_REPORT_CENTER",
+      "slug": "stats-report-center",
+      "aspect": "4 / 3",
+      "motif": "documents",
+      "status": "READY",
+      "image": {
+        "path": "images/stats-report-center.webp",
+        "format": "webp",
+        "mime": "image/webp",
+        "width": 1152,
+        "height": 864,
+        "bytes": 24096,
+        "sha256": "7ff2fceaa0302c37ed3a7c5897599150415f27c7de1477ce39681a7a5d67bf51"
+      },
+      "master": {
+        "path": "masters/stats-report-center.jpg",
+        "format": "jpeg",
+        "mime": "image/jpeg",
+        "width": 1200,
+        "height": 896,
+        "bytes": 422393,
+        "sha256": "eea1e3687e529ef0f155d54d1d7ea9ba64efdf94700a3ee46c6275eaa7f9fc39"
+      }
+    },
+    {
+      "slot_id": "CREATIVE_HOME_HERO",
+      "slug": "creative-home-hero",
+      "aspect": "16 / 9",
+      "motif": "constellation",
+      "status": "READY",
+      "image": {
+        "path": "images/creative-home-hero.webp",
+        "format": "webp",
+        "mime": "image/webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 19838,
+        "sha256": "da0e78d607cdacf65c0a310b5d11af211e79b85b4cf418e8695eb9a4b4b1345b"
+      },
+      "master": {
+        "path": "masters/creative-home-hero.jpg",
+        "format": "jpeg",
+        "mime": "image/jpeg",
+        "width": 1376,
+        "height": 768,
+        "bytes": 416681,
+        "sha256": "2f4e036748a1185b01860c48201ea4fa563f4c9052e3b16c49f502153635d2d8"
+      }
+    },
+    {
+      "slot_id": "CREATIVE_NARRATIVE_GRAPH",
+      "slug": "creative-narrative-graph",
+      "aspect": "3 / 2",
+      "motif": "network",
+      "status": "PROMPT_ONLY",
+      "expected_image_path": "images/creative-narrative-graph.webp",
+      "image": null,
+      "master": null,
+      "reason": "IMAGE_GENERATION_QUOTA_EXHAUSTED (HTTP 429 RESOURCE_EXHAUSTED)"
+    },
+    {
+      "slot_id": "CREATIVE_IDEATION_WORKSPACE",
+      "slug": "creative-ideation-workspace",
+      "aspect": "3 / 2",
+      "motif": "prism",
+      "status": "PROMPT_ONLY",
+      "expected_image_path": "images/creative-ideation-workspace.webp",
+      "image": null,
+      "master": null,
+      "reason": "IMAGE_GENERATION_QUOTA_EXHAUSTED (HTTP 429 RESOURCE_EXHAUSTED)"
+    },
+    {
+      "slot_id": "CREATIVE_CONSISTENCY_AUDIT",
+      "slug": "creative-consistency-audit",
+      "aspect": "3 / 2",
+      "motif": "scales",
+      "status": "PROMPT_ONLY",
+      "expected_image_path": "images/creative-consistency-audit.webp",
+      "image": null,
+      "master": null,
+      "reason": "IMAGE_GENERATION_QUOTA_EXHAUSTED (HTTP 429 RESOURCE_EXHAUSTED)"
+    },
+    {
+      "slot_id": "CREATIVE_STORY_REFACTOR",
+      "slug": "creative-story-refactor",
+      "aspect": "3 / 2",
+      "motif": "blueprint",
+      "status": "PROMPT_ONLY",
+      "expected_image_path": "images/creative-story-refactor.webp",
+      "image": null,
+      "master": null,
+      "reason": "IMAGE_GENERATION_QUOTA_EXHAUSTED (HTTP 429 RESOURCE_EXHAUSTED)"
+    },
+    {
+      "slot_id": "CREATIVE_CANON_REMODEL",
+      "slug": "creative-canon-remodel",
+      "aspect": "3 / 2",
+      "motif": "twin-orbits",
+      "status": "PROMPT_ONLY",
+      "expected_image_path": "images/creative-canon-remodel.webp",
+      "image": null,
+      "master": null,
+      "reason": "IMAGE_GENERATION_QUOTA_EXHAUSTED (HTTP 429 RESOURCE_EXHAUSTED)"
+    },
+    {
+      "slot_id": "CREATIVE_IMPACT_EXPLORER",
+      "slug": "creative-impact-explorer",
+      "aspect": "3 / 2",
+      "motif": "ripples",
+      "status": "PROMPT_ONLY",
+      "expected_image_path": "images/creative-impact-explorer.webp",
+      "image": null,
+      "master": null,
+      "reason": "IMAGE_GENERATION_QUOTA_EXHAUSTED (HTTP 429 RESOURCE_EXHAUSTED)"
+    },
+    {
+      "slot_id": "CREATIVE_DEVELOPMENT_ROADMAP",
+      "slug": "creative-development-roadmap",
+      "aspect": "16 / 9",
+      "motif": "chronology",
+      "status": "PROMPT_ONLY",
+      "expected_image_path": "images/creative-development-roadmap.webp",
+      "image": null,
+      "master": null,
+      "reason": "IMAGE_GENERATION_QUOTA_EXHAUSTED (HTTP 429 RESOURCE_EXHAUSTED)"
+    },
+    {
+      "slot_id": "CREATIVE_DECISION_TREE",
+      "slug": "creative-decision-tree",
+      "aspect": "3 / 2",
+      "motif": "branching",
+      "status": "PROMPT_ONLY",
+      "expected_image_path": "images/creative-decision-tree.webp",
+      "image": null,
+      "master": null,
+      "reason": "IMAGE_GENERATION_QUOTA_EXHAUSTED (HTTP 429 RESOURCE_EXHAUSTED)"
+    },
+    {
+      "slot_id": "STATISTICAL_DECISION_TREE",
+      "slug": "statistical-decision-tree",
+      "aspect": "3 / 2",
+      "motif": "branching",
+      "status": "PROMPT_ONLY",
+      "expected_image_path": "images/statistical-decision-tree.webp",
+      "image": null,
+      "master": null,
+      "reason": "IMAGE_GENERATION_QUOTA_EXHAUSTED (HTTP 429 RESOURCE_EXHAUSTED)"
+    }
+  ]
+}
